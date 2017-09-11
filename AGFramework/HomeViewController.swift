@@ -34,6 +34,12 @@ public class HomeViewController: UIViewController {
         print("Label Creation called")
         
     }
+    
+    public func textFieldCreation()
+    {
+        print("textfield Creation called")
+        
+    }
 
     
 }
