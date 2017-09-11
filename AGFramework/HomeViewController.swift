@@ -23,5 +23,11 @@ public class HomeViewController: UIViewController {
         
     }
 
+    public func buttonActionMethod()
+    {
+        print("Button Action called")
+        
+    }
+
     
 }
