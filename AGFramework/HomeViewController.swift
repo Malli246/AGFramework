@@ -28,6 +28,12 @@ public class HomeViewController: UIViewController {
         print("Button Action called")
         
     }
+    
+    public func labelCreation()
+    {
+        print("Label Creation called")
+        
+    }
 
     
 }
