@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868A38051F67B6630063D8C3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868A38041F67B6630063D8C3 /* Storyboard.storyboard */; };
+		868A38071F67B8E00063D8C3 /* ElementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A38061F67B8E00063D8C3 /* ElementsView.swift */; };
 		86C376B41F6645E4004C23E9 /* AGFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C376AA1F6645E3004C23E9 /* AGFramework.framework */; };
 		86C376B91F6645E4004C23E9 /* AGFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C376B81F6645E4004C23E9 /* AGFrameworkTests.swift */; };
 		86C376BB1F6645E4004C23E9 /* AGFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C376AD1F6645E4004C23E9 /* AGFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		868A38041F67B6630063D8C3 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		868A38061F67B8E00063D8C3 /* ElementsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementsView.swift; sourceTree = "<group>"; };
 		86C376AA1F6645E3004C23E9 /* AGFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C376AD1F6645E4004C23E9 /* AGFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGFramework.h; sourceTree = "<group>"; };
 		86C376AE1F6645E4004C23E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 			children = (
 				86C376AD1F6645E4004C23E9 /* AGFramework.h */,
 				86C376C41F664748004C23E9 /* HomeViewController.swift */,
+				868A38061F67B8E00063D8C3 /* ElementsView.swift */,
+				868A38041F67B6630063D8C3 /* Storyboard.storyboard */,
 				86C376AE1F6645E4004C23E9 /* Info.plist */,
 			);
 			path = AGFramework;
@@ -185,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868A38051F67B6630063D8C3 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86C376C51F664748004C23E9 /* HomeViewController.swift in Sources */,
+				868A38071F67B8E00063D8C3 /* ElementsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +420,7 @@
 				86C376C01F6645E4004C23E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C376C11F6645E4004C23E9 /* Build configuration list for PBXNativeTarget "AGFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				86C376C31F6645E4004C23E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
